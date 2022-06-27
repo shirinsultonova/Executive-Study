@@ -2,6 +2,41 @@
   box-sizing: border-box;
 }
 
+
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+font-display: wrap;
+  src: 
+       url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), 
+       url("../fonts/roboto-v30-latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+font-display: wrap;
+  src: 
+       url("../fonts/roboto-v30-latin-500.woff2") format("woff2"), 
+       url("../fonts/roboto-v30-latin-500.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: wrap;
+  src: 
+       url("../fonts/roboto-v30-latin-700.woff2") format("woff2"), 
+       url("../fonts/roboto-v30-latin-700.woff") format("woff"); 
+}
+
+
+
+
 body {
   margin: 0;
   font-family: "Roboto", "Arial", sans-serif;
@@ -44,7 +79,7 @@ ul {
 }
 
 .btn-container::after{
-  content: '';
+  content: "";
   display: block;
   width: 18px;
   height: 16px;
@@ -66,7 +101,7 @@ ul {
 }
 
 .learn-more::after{
-  content: '';
+  content: "";
   width: 18px;
   height: 16px;
   background-image: url("../images/arrow_forward_24px.svg");
@@ -297,7 +332,7 @@ ul {
 }
 
 .service-item::before{
-  content: '';
+  content: "";
   display: block;
   width: 76px;
   height: 76px;
@@ -362,7 +397,7 @@ ul {
 }
 
 .time-wrapper::before{
-  content: '';
+  content: "";
   display: block;
   width: 24px;
   height: 24px;
@@ -416,7 +451,7 @@ ul {
 }
 
 .news-item::before{
-  content: '';
+  content: "";
   display: block;
   width: 344px;
   height: 224px;
@@ -441,7 +476,7 @@ ul {
   margin-top: 28px;
 }
 .news-item-wrapper::before{
-  content: '';
+  content: "";
   display: block;
   width: 14px;
   height: 14px;
@@ -529,7 +564,7 @@ ul {
 }
 
 .event-top::before{
-  content: '';
+  content: "";
   display: block;
   width: 76px;
   height: 76px;
@@ -647,7 +682,7 @@ ul {
 }
 
 .countries-item::before{
-  content: '';
+  content: "";
   display: block;
   width: 348px;
   height: 215px;
@@ -734,7 +769,7 @@ ul {
 }
 
 .user-info::before{
-  content: '';
+  content: "";
   display: block;
   width: 62px;
   height: 62px;
